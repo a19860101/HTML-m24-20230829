@@ -16,4 +16,4 @@
 | 刪除列 | Ctrl + Shift + K | Cmd + Shift + K |
 | 收合側邊欄 | Ctrl + B | Cmd + B |
 | 開發者工具 | F12,Ctrl + Shift + I | Cmd + Opt + I |
-| 格式化程式碼 | Alt + Shift + F | |
+| 格式化程式碼 | Alt + Shift + F | Opt + Shift + F |
