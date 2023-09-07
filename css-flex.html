@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        * {
+            box-sizing: border-box;
+        }
         .container {
             width: 1200px;
             display: flex;
@@ -36,9 +39,15 @@
             /* background-color: #fa0; */
             padding: 20px;
 
-            box-sizing: border-box;
+            border:3px red solid;
+
+            /* box-sizing: border-box; */
             /* content-box, border-box */
         }
+        /* 
+            預設狀態下，總寬度=width+padding-left+padding-right+border-left+border-right
+            設定box-sizing後，總寬度=width
+        */
 
     </style>
 </head>
