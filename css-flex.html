@@ -9,25 +9,32 @@
             width: 100%;
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
+            justify-content: start;
             /* 
                 start, center, end
                 space-between ,space-around, space-evenly
             */
 
-            align-items: center;
+            align-items: start;
             /* 
                 start, center, end
                 stretch, baseline
             */
 
+            flex-direction: row;
+            /* row, row-reverse, column, column-reverse */
             background-color: #ccc;
         }
         .box {
-            width: 20%;
+            width: 300px;
             text-align: justify;
-            background-color: #fa0;
+            /* background-color: #fa0; */
+            padding: 20px;
+
+            box-sizing: border-box;
+            /* content-box, border-box */
         }
+
     </style>
 </head>
 <body>
@@ -43,8 +50,6 @@
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ducimus at porro a consequuntur, neque laudantium error dolores veritatis architecto.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ducimus at porro a consequuntur, neque laudantium error dolores veritatis architecto.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ducimus at porro a consequuntur, neque laudantium error dolores veritatis architecto.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ducimus at porro a consequuntur, neque laudantium error dolores veritatis architecto.
             </p>
         </div>
         <div class="box">
@@ -53,12 +58,12 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ducimus at porro a consequuntur, neque laudantium error dolores veritatis architecto.
             </p>
         </div>
-        <!-- <div class="box">
+        <div class="box">
             <h2>title</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ducimus at porro a consequuntur, neque laudantium error dolores veritatis architecto.
             </p>
-        </div> -->
+        </div>
     </div>
 </body>
 </html>
